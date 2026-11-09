@@ -1,3 +1,36 @@
 body {
-    background-color:aqua
+    color: green;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+.fixed-bottom-right { 
+  position: fixed; 
+  right: 16px;   /* distance from right edge */ 
+  bottom: 16px;  /* distance from bottom edge */ 
+  z-index: 1000; /* optional, keep on top */ 
+} 
+
+#chair { 
+  position: fixed; 
+  right: 16px;   /* distance from right edge */ 
+  top: 32px;  /* distance from bottom edge */ 
+  z-index: 1000; /* optional, keep on top */ 
+} 
+
+#ThisChair { 
+  position: fixed; 
+  right: 31px;   /* distance from right edge */ 
+  top: 197px;  /* distance from bottom edge */ 
+  z-index: 1001; /* optional, keep on top */ 
+} 
+
+.text-container {
+    max-width: 600px;
 }
